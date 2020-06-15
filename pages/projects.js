@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function Home() {
+export default function Projects() {
   return (
     <div className="container">
       <Head>
@@ -10,7 +10,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Home page
+          Projects page
         </h1>
       </main>
 
