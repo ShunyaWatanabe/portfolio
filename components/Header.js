@@ -10,17 +10,17 @@ const navLinks = [
   {
     key: 'about',
     label: 'about',
-    to: '/',
+    to: '#about-me',
   },
   {
     key: 'projects',
     label: 'projects',
-    to: '/',
+    to: '#latest-works',
   },
   {
     key: 'contact',
     label: 'contact',
-    to: '/',
+    to: '#contact',
   },
 ]
 

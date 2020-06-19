@@ -2,7 +2,7 @@ import ContactLinks from 'components/ContactLinks';
 
 export default () => {
   return (
-    <footer>
+    <footer id="contact">
       <h5>Get in touch</h5>
       <p>
         But Brooke Chaffin and Catherine Connors are looking to change that with the 

@@ -32,8 +32,12 @@ $header-height: 100px;
   transition: $param 0.3s linear;
 }
 
-body {
+html {
+  scroll-behavior: smooth;
   font-size: 16px;
+}
+
+body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
