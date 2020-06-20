@@ -1,5 +1,5 @@
 import ContactLinks from 'components/ContactLinks';
-import NavLinks from 'components/NavLinks';
+// import NavLinks from 'components/NavLinks';
 import MainLogo from './MainLogo';
 import styles from './Footer.module.scss';
 
@@ -18,7 +18,7 @@ export default () => {
       <div className={styles.extra}>
         <MainLogo />
         <h5>Copyright © Shunya Watanabe <br/> All rights reserved</h5>
-        <NavLinks />
+        {/* <NavLinks /> */}
       </div>
     </footer>
   )
