@@ -4,17 +4,17 @@ const contactLinks = [
   {
     key: 'linkedIn',
     icon: <IoLogoLinkedin />,
-    to: 'https://www.google.com',
+    to: 'https://www.linkedin.com/in/shunya-watanabe-aba1a5151/',
   },
   {
     key: 'github',
     icon: <IoLogoGithub />,
-    to: 'https://www.google.com',
+    to: 'https://github.com/ShunyaWatanabe',
   },
   {
     key: 'email',
     icon: <IoIosMail />,
-    to: 'https://www.google.com',
+    to: 'mailto:s.watte3212@gmail.com',
   }
 ]
 
@@ -38,7 +38,7 @@ const ContactLink = (props) => {
   const { icon, to } = props;
   return (
     <li>
-      <a href={to} className="contactIcon"> {icon} </a>
+      <a href={to} className="contactIcon" target="_blank"> {icon} </a>
     </li>
   )
 }

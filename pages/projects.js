@@ -12,10 +12,9 @@ export default function Projects() {
 
       <Header />
 
+      <Sidebar />
       <main>
-        <h1 className="title">
-          Projects page
-        </h1>
+        <Project />
       </main>
 
       <Footer />

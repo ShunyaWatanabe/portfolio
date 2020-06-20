@@ -17,7 +17,7 @@ const projects = [
     id: 'project2',
   },
   { 
-    src: '/nolack.png', 
+    src: '/describe.png', 
     title: 'Nolack', 
     description: 'A website for connecting those in need of health products and those who seek to provide',
     id: 'project3',
