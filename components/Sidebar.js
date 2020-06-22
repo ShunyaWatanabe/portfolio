@@ -1,11 +1,24 @@
+import Back from 'components/Back';
+import styles from './Sidebar.module.scss';
+
 export default () => {
   return (
-    <div>
+    <div className={styles.sidebar}>
+      <Back />
+      <h3>Projects</h3>
       <ul>
-        <li>project 1</li>
-        <li>project 2</li>
-        <li>project 3</li>
-        <li>project 4</li>
+        <li>
+          <a>TAMM</a>
+        </li>
+        <li>
+          <a>OtsukaiChain</a>
+        </li>
+        <li>
+          <a>Nolack</a>
+        </li>
+        <li>
+          <a>Desribe</a>
+        </li>
       </ul>
     </div>
   );

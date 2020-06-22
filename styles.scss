@@ -239,6 +239,15 @@ nav > ul {
   }
 }
 
+#projects-page {
+  main {
+    display: grid;
+    grid-template-areas: 'sidebar content';
+    grid-template-columns: 1fr 4fr;
+    padding: 5% 10%;
+  }
+}
+
 @media only screen and (max-width: 1080px) {
   .container {
     main {

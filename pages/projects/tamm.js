@@ -16,7 +16,9 @@ export default function Projects() {
 
       <main>
         <Sidebar />
-        <Project />
+        <Project title="TAMM">
+          <h5>lorem</h5>
+        </Project>
       </main>
 
       <Footer />

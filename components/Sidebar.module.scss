@@ -1,0 +1,31 @@
+@use 'variables';
+
+.sidebar {
+  // background-color: grey;
+  padding-top: 180px;
+
+  > div:first-child {
+    margin-bottom: 3rem;
+  }
+
+  h3 {
+    font-size: 0.875rem;
+    margin-bottom: 1.875rem;
+    text-transform: uppercase;
+    letter-spacing: -0.32px;
+  }
+
+  ul {
+    // li::before {
+    //   content: "> "
+    // }
+    li {
+      margin-bottom: 10px;
+    }
+    a {
+      font-size: 1.125rem;
+      line-height: 1.625rem;
+      color: variables.$primary-color;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@use 'mixins';
+
+.contactLinks {
+  >ul {
+    @include mixins.gridHorizontal(3, 30px);
+  }
+  
+  svg {
+    height: 20px;
+    width: 20px;
+  }
+}

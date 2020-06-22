@@ -1,4 +1,5 @@
 import { IoLogoLinkedin, IoLogoGithub, IoIosMail } from "react-icons/io";
+import styles from './ContactLinks.module.scss';
 
 const contactLinks = [
   {
@@ -20,7 +21,7 @@ const contactLinks = [
 
 export default () => {
   return (
-    <div id="contact-links">
+    <div className={styles.contactLinks}>
       <ul>
         {contactLinks.map(navLink => 
           <ContactLink 
@@ -38,7 +39,14 @@ const ContactLink = (props) => {
   const { icon, to } = props;
   return (
     <li>
-      <a href={to} className="contactIcon" target="_blank"> {icon} </a>
+      <a 
+        href={to} 
+        className="contactIcon"
+        id="contactIcon"
+        target="_blank"
+        > 
+        {icon}
+      </a>
     </li>
   )
 }

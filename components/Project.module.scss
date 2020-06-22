@@ -1,0 +1,41 @@
+@use "variables";
+
+.project {
+  text-align: center;
+  min-height: 1200px;
+  font-family: variables.$font-stack;
+
+  .projectLinks {
+    margin: 0 0 2rem;
+
+    ul {
+      margin: 0;
+    }
+  }
+
+  h1 {
+    color: variables.$primary-color;
+    margin: 0 0 1rem;
+    font-weight: 400;
+    font-size: 3.375rem;
+  }
+
+  .projectTags {
+    display: flex;
+    
+    div {
+      flex-grow: 1;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .projectImg {
+    width: 100%;
+    min-height: 500px;
+  }
+
+  p {
+    width: 60%;
+    margin: auto;
+  }
+}
