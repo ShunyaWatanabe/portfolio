@@ -1,4 +1,4 @@
-import styles from './project.module.scss';
+import styles from './Project.module.scss';
 import ContactLinks from 'components/ContactLinks';
 import ProjectTag from 'components/ProjectTag';
 
