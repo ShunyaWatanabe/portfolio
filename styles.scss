@@ -148,7 +148,23 @@ nav > ul {
 
       h2 {
         text-align: center;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
+      }
+
+      #more-works-link {
+        text-align: center;
+        margin: 5% 10%;
+        a {
+          font-size: 1.125rem;
+          @include flexCenter;
+          display: inline-flex;
+          position: relative;
+          svg {
+            position: absolute;
+            right: -2rem;
+            top: 0;
+          }
+        }
       }
 
       #projects-container {
@@ -214,8 +230,7 @@ nav > ul {
   #contact {
     width: min(90%, 600px);
     text-align: center;
-    margin: auto;
-    margin-bottom: 5.625rem;
+    margin: 5% auto;
 
     h5 {
       font-size: 0.875rem;

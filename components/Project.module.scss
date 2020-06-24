@@ -21,7 +21,8 @@
   }
 
   .projectTags {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     
     div {
       flex-grow: 1;
@@ -31,7 +32,7 @@
 
   .projectImg {
     width: 100%;
-    min-height: 500px;
+    margin-bottom: 2rem;
   }
 
   p {

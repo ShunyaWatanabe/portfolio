@@ -1,5 +1,25 @@
 import Back from 'components/Back';
+import Link from 'next/link';
 import styles from './Sidebar.module.scss';
+
+const links = [
+  {
+    url: '/projects/tamm',
+    title: 'TAMM',
+  },
+  {
+    url: '/projects/otsukaichain',
+    title: 'OtsukaiChain',
+  },
+  {
+    url: '/projects/nolack',
+    title: 'Nolack',
+  },
+  {
+    url: '/projects/describe',
+    title: 'Describe',
+  },
+]
 
 export default () => {
   return (
@@ -7,18 +27,17 @@ export default () => {
       <Back />
       <h3>Projects</h3>
       <ul>
-        <li>
-          <a>TAMM</a>
-        </li>
-        <li>
-          <a>OtsukaiChain</a>
-        </li>
-        <li>
-          <a>Nolack</a>
-        </li>
-        <li>
-          <a>Desribe</a>
-        </li>
+        {
+          links.map(link => {
+            return (
+              <li key={link.title} >
+                <Link href={link.url}>
+                  <a> {link.title} </a>
+                </Link>
+              </li>
+            )
+          })
+        }
       </ul>
     </div>
   );

@@ -1,7 +1,9 @@
 import Head from 'next/head'
+import Link from 'next/link';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 import Tile from 'components/Tile';
+import { AiOutlineRight } from "react-icons/ai";
 
 const projects = [
   { 
@@ -73,6 +75,11 @@ export default function Home() {
                 title={project.title}
                 description={project.description} />
             ))}
+          </div>
+          <div id="more-works-link">
+            <Link href={'/projects'} >
+              <a> More works <AiOutlineRight /></a>
+            </Link>
           </div>
         </section>
       </main>
